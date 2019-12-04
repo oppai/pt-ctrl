@@ -1,0 +1,3 @@
+#!/bin/sh
+
+aws --profile kodam rds describe-db-instances | jq -r '.DBInstances | map(.DBInstanceIdentifier+": "+.DBInstanceStatus) | join("\n")'
