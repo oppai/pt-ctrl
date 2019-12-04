@@ -1,0 +1,2 @@
+#!/bin/sh
+aws --profile kodam rds start-db-instance --db-instance-identifier pokertracker4 > /dev/null
