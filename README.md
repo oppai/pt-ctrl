@@ -2,7 +2,7 @@
 
 ```sh
 # show status
-curl -s pt.oppai.ninja/list | sh
+curl -s pt.oppai.ninja/status | sh
 
 # start instance
 curl -s pt.oppai.ninja/start | sh
